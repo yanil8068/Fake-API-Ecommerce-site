@@ -27,3 +27,8 @@ return data.json();
 }).catch((err)=>{
     console.log(err);
 })
+var icon = document.getElementById('icon');
+var navUl = document.querySelector('nav ul');
+icon.addEventListener('click', function() {
+    navUl.classList.toggle('show');
+});
