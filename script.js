@@ -17,8 +17,8 @@ return data.json();
         <p class="category">
         ${values.category}</p>
         <p class="price">${"₹ "+values.price}</p>
-        <button class="btn1">${"buy me"}</button>
-        <button class="btn2">${"Add to cart"}</button>
+        <button class="btn1" onclick="fun()">${"buy me"}</button>
+        <button class="btn2" onclick="fun()">${"Add to cart"}</button>
       </div>`
     });
     document.getElementById("cards").innerHTML=data1;
@@ -32,3 +32,11 @@ var navUl = document.querySelector('nav ul');
 icon.addEventListener('click', function() {
     navUl.classList.toggle('show');
 });
+
+
+
+
+
+function fun() {
+  window.open("product.html")
+}

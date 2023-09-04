@@ -62,6 +62,18 @@ body{
     padding: 0 10px;
     margin: 0 4px;
 }
+.btn1:hover{
+    background: white;
+    color: black;
+    
+    
+}
+.btn2:hover{
+    background: white;
+    color: black;
+   
+}
+
 
 
 ///
